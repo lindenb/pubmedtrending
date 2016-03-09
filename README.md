@@ -1,5 +1,11 @@
 # pubmedtrending
-pubmed trending data
+
+NCBI pubmed trending data
+
+
+Pierre Lindenbaum PhD @yokofakun
+
+## Notes to self
 
 ```
 #!/bin/bash
