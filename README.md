@@ -24,3 +24,8 @@ curl -s -x "(host):(port)" "http://www.ncbi.nlm.nih.gov/pubmed/trending/"  |\
 xsltproc --html /path/to/xslt-sandbox/stylesheets/bio/ncbi/pubmedtrending2rss.xsl - 2> /dev/null |\
 grep "<guid " | cut -d '>' -f 2 | cut -d '<' -f 1 | sed 's%http://www.ncbi.nlm.nih.gov/pubmed/%%' | tr "\n" "," | sed 's/,$//' && echo
 ```
+
+visualize:
+
+
+https://cdn.rawgit.com/lindenb/pubmedtrending/master/data.html
